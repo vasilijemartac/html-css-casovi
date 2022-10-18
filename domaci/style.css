@@ -1,0 +1,81 @@
+
+  
+
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
+
+  header {
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    font-size: 79px;
+    color: white;
+  }
+  
+  
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  
+  nav {
+   
+    flex: -2;
+    background: blue;
+    padding: 100px;
+  }
+  
+ 
+ 
+  
+ 
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 150px;
+  }
+  
+  
+  footer {
+    background-color: red;
+    padding: 79px;
+    text-align: center;
+    color: white;
+  }
+ 
+
+
+  
+  aside{
+    background-color: blue;
+    padding: 100px;
+    text-align: center;
+    color: white;
+
+
+  }
+  table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  td, th {
+    border: 1px solid blue;
+    text-align: left;
+    padding: 10px 14px;
+    
+  }
+
+  tr:nth-child(even) {
+    background-color: green;
+  }
